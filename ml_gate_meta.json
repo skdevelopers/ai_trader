@@ -1,0 +1,30 @@
+{
+  "model": "GradientBoostingClassifier",
+  "train": 294,
+  "test": 98,
+  "auc": 0.5931972789115646,
+  "acc@0.5": 0.5714285714285714,
+  "threshold": 0.6,
+  "features": [
+    "body_pct",
+    "upper_wick_pct",
+    "lower_wick_pct",
+    "dist_fast",
+    "dist_slow",
+    "ema_fast_slope",
+    "ema_slow_slope",
+    "bb_width",
+    "atr_pct",
+    "rsi",
+    "sig_dir",
+    "f_bull_eng",
+    "f_bear_eng",
+    "f_hammer",
+    "f_shooting",
+    "f_inside",
+    "f_nr4",
+    "f_nr7",
+    "f_sfp_bull",
+    "f_sfp_bear"
+  ]
+}
